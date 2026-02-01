@@ -1,0 +1,15 @@
+com\jobportal\servlet\LoginServlet.class
+com\jobportal\servlet\PostJobServlet.class
+com\jobportal\servlet\ViewJobsServlet.class
+com\jobportal\DBUtil.class
+com\jobportal\servlet\ManageJobsServlet.class
+com\jobportal\servlet\ViewJobsUserServlet.class
+com\jobportal\servlet\DeleteUserServlet.class
+com\jobportal\servlet\ViewAllUsersServlet.class
+com\jobportal\servlet\UpdateApplicationServlet.class
+com\jobportal\servlet\ViewApplicationsUserServlet.class
+com\jobportal\servlet\UpdateUserServlet.class
+com\jobportal\servlet\RegisterServlet.class
+com\jobportal\servlet\ApplyJobServlet.class
+com\jobportal\servlet\ViewApplicationsRecruiterServlet.class
+com\jobportal\servlet\LogoutServlet.class

@@ -1,0 +1,117 @@
+2026-02-01T15:52:45.626Z [INFO] ----------------------invoke build_java_project----------------------
+2026-02-01T15:52:45.627Z [INFO] [Tool.invoke]({name: build_java_project, input: {
+  "codeChangesDetails": "",
+  "codeChangesMessage": "",
+  "projectPath": "c:\\Users\\HP\\OneDrive\\Desktop\\JobPortal"
+}}).
+2026-02-01T15:52:45.627Z [INFO] [Task.start](): Starting task toolCall
+2026-02-01T15:52:45.628Z [INFO] [Task.start](): Started task toolCall
+2026-02-01T15:52:45.628Z [INFO] [Tool.invoke] validate GitHub Copilot license.
+2026-02-01T15:52:45.628Z [INFO] [Tool.invoke] do pre-invoke.
+2026-02-01T15:52:45.629Z [INFO] Project c:\Users\HP\OneDrive\Desktop\JobPortal is a maven project, try to get java version from pom.xml
+2026-02-01T15:52:45.630Z [INFO] Project java version: 22
+2026-02-01T15:52:45.637Z [INFO] Maven project detected.
+2026-02-01T15:52:45.637Z [INFO] Build tool type: mvn
+2026-02-01T15:52:45.736Z [INFO] [Environment] Running command (Java 22): java -version
+java version "22.0.1" 2024-04-16
+Java(TM) SE Runtime Environment (build 22.0.1+8-16)
+Java HotSpot(TM) 64-Bit Server VM (build 22.0.1+8-16, mixed mode, sharing)
+2026-02-01T15:52:45.869Z [INFO] [JdkEnvironment] Got real Java version: 22.0.1
+2026-02-01T15:52:45.869Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Program Files\\Java\\jdk-22\\bin",
+  "version": "22"
+}
+2026-02-01T15:52:45.900Z [INFO] [Environment] Running command (Java 22): mvn --version
+Apache Maven 3.9.12 (848fbb4bf2d427b72bdb2471c22fced7ebd9a7a1)
+Maven home: C:\apache-maven\apache-maven-3.9.12
+Java version: 22.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-22
+Default locale: en_IN, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+2026-02-01T15:52:46.374Z [INFO] Real build tool version: 3.9.12
+2026-02-01T15:52:46.375Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\apache-maven\\apache-maven-3.9.12\\bin",
+  "version": "3.9.12"
+}
+2026-02-01T15:52:46.375Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\apache-maven\\apache-maven-3.9.12\\bin",
+    "name": "mvn",
+    "version": "3.9.12"
+  },
+  "jdk": {
+    "path": "C:\\Program Files\\Java\\jdk-22\\bin",
+    "name": "java",
+    "version": "22"
+  },
+  "name": "JobPortal",
+  "dir": "c:\\Users\\HP\\OneDrive\\Desktop\\JobPortal"
+}
+2026-02-01T15:52:46.402Z [INFO] [Tool.invoke] do invoke.
+2026-02-01T15:52:46.403Z [INFO] [BaseBuildTool] Firing config modified event for mvn, sleeping for 5 seconds
+2026-02-01T15:52:46.403Z [INFO] [Environment] Running command (Java 22): mvn --version
+Apache Maven 3.9.12 (848fbb4bf2d427b72bdb2471c22fced7ebd9a7a1)
+Maven home: C:\apache-maven\apache-maven-3.9.12
+Java version: 22.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-22
+Default locale: en_IN, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+2026-02-01T15:52:47.035Z [INFO] [BaseBuildTool] New version of mvn: 3.9.12 -> 3.9.12
+2026-02-01T15:52:47.035Z [INFO] [MavenBuildTool] Getting Java version of c:\Users\HP\OneDrive\Desktop\JobPortal from pom.xml
+2026-02-01T15:52:47.036Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Users\HP\OneDrive\Desktop\JobPortal
+2026-02-01T15:52:47.037Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\HP\OneDrive\Desktop\JobPortal
+2026-02-01T15:52:47.037Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\HP\OneDrive\Desktop\JobPortal
+2026-02-01T15:52:47.038Z [INFO] [Environment] Running command (Java 22): mvn help:effective-pom -Doutput=effective-pom-a7554a51-7a63-4b01-97a9-11298024e95b.log
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.jobportal:JobPortal >-----------------------
+[INFO] Building JobPortal 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.1:effective-pom (default-cli) @ JobPortal ---
+[INFO] Effective-POM written to: c:\Users\HP\OneDrive\Desktop\JobPortal\effective-pom-a7554a51-7a63-4b01-97a9-11298024e95b.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.543 s
+[INFO] Finished at: 2026-02-01T21:22:50+05:30
+[INFO] ------------------------------------------------------------------------
+2026-02-01T15:52:50.101Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Users\HP\OneDrive\Desktop\JobPortal\pom.xml
+2026-02-01T15:52:50.103Z [INFO] [MavenBuildTool] Java version found in c:\Users\HP\OneDrive\Desktop\JobPortal\pom.xml: 22
+2026-02-01T15:52:50.103Z [INFO] [BaseBuildTool] Notifying Java version/Config change: '22' || '21'
+2026-02-01T15:52:50.104Z [INFO] [Project JobPortal]: Java version of project JobPortal is changed.
+2026-02-01T15:52:50.104Z [INFO] [Project JobPortal]: Java version of project JobPortal is changed to '22' || '21'
+2026-02-01T15:52:50.105Z [INFO] [Project JobPortal]: build tool config of project JobPortal is modified.
+2026-02-01T15:52:50.105Z [INFO] [Project JobPortal]: dependencies of project JobPortal may be changed, resetting promise.
+2026-02-01T15:52:50.106Z [INFO] [MavenBuildTool] Getting build errors of c:\Users\HP\OneDrive\Desktop\JobPortal using Maven
+2026-02-01T15:52:50.106Z [INFO] [Environment] Running command (Java 22): mvn clean test-compile -q -B -fn
+2026-02-01T15:52:53.742Z [INFO] [MavenBuildTool] parsing compilation errors.
+2026-02-01T15:52:53.743Z [INFO] [BaseBuildTool] Found 1 modules: .
+2026-02-01T15:52:53.749Z [INFO] [BaseBuildTool] Finish counting Java and class files
+2026-02-01T15:52:53.749Z [INFO] [MavenBuildTool] Cleaning c:\Users\HP\OneDrive\Desktop\JobPortal using Maven
+2026-02-01T15:52:53.750Z [INFO] [Environment] Running command (Java 22): mvn clean -q -B -fn
+2026-02-01T15:52:55.810Z [INFO] [Project JobPortal]: Compilation errors of project JobPortal is updated: 0 -> 0
+2026-02-01T15:52:55.810Z [INFO] Build succeeded! There are no build errors in the project.
+2026-02-01T15:52:55.811Z [INFO] [Tool.invoke]({result: {
+  "message": "Build succeeded! There are no build errors in the project.",
+  "result": {
+    "numOfJavaFiles": 16,
+    "numOfClassFiles": 15,
+    "modulesBuildResult": {
+      ".": {
+        "numOfJavaFiles": 16,
+        "numOfClassFiles": 15
+      }
+    },
+    "errors": [],
+    "command": "mvn clean test-compile -q -B -fn"
+  },
+  "telemetry": {
+    "result": "succeeded"
+  }
+}}).
+2026-02-01T15:52:55.811Z [INFO] [Task.complete](): Completing task toolCall
+2026-02-01T15:52:55.812Z [INFO] [Task.complete](): Completed task toolCall
+2026-02-01T15:52:55.812Z [INFO] [Tool.invoke]({message: Build succeeded! There are no build errors in the project.}).
+2026-02-01T15:52:55.812Z [INFO] ----------------------invoked build_java_project----------------------

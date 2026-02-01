@@ -1,0 +1,128 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee" version="6.0">
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.jobportal.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.jobportal.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.jobportal.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+<servlet>
+    <servlet-name>PostJobServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.PostJobServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>PostJobServlet</servlet-name>
+    <url-pattern>/postJob</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ViewJobsServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.ViewJobsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ViewJobsServlet</servlet-name>
+    <url-pattern>/viewJobs</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ViewAllUsersServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.ViewAllUsersServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ViewAllUsersServlet</servlet-name>
+    <url-pattern>/viewAllUsers</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ViewJobsUserServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.ViewJobsUserServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ViewJobsUserServlet</servlet-name>
+    <url-pattern>/viewJobsUser</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ApplyJobServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.ApplyJobServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ApplyJobServlet</servlet-name>
+    <url-pattern>/applyJob</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ViewApplicationsUserServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.ViewApplicationsUserServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ViewApplicationsUserServlet</servlet-name>
+    <url-pattern>/viewMyApplications</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>PostJobServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.PostJobServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>PostJobServlet</servlet-name>
+    <url-pattern>/postJobAlt</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ViewApplicationsRecruiterServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.ViewApplicationsRecruiterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ViewApplicationsRecruiterServlet</servlet-name>
+    <url-pattern>/viewApplicationsRecruiter</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateApplicationServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.UpdateApplicationServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateApplicationServlet</servlet-name>
+    <url-pattern>/updateApplication</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ManageJobsServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.ManageJobsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ManageJobsServlet</servlet-name>
+    <url-pattern>/manageJobs</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ViewAllApplicationsServlet</servlet-name>
+    <servlet-class>com.jobportal.servlet.ViewAllApplicationsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ViewAllApplicationsServlet</servlet-name>
+    <url-pattern>/viewAllApplications</url-pattern>
+</servlet-mapping>
+
+</web-app>
